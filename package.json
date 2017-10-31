@@ -1,12 +1,12 @@
 {
   "name": "oanda-test",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A NodeJS Promise based API wrapper for Oanda trading platform",
   "main": "Oanda.js",
   "scripts": {
     "test": "mocha tests --recursive --watch"
   },
-  "author": "",
+  "author": "Eric Abrahams",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
