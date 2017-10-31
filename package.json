@@ -1,5 +1,5 @@
 {
-  "name": "oanda-test",
+  "name": "oanda-node-api",
   "version": "0.0.1",
   "description": "A NodeJS Promise based API wrapper for Oanda trading platform",
   "main": "Oanda.js",
