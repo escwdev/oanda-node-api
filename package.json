@@ -11,5 +11,9 @@
   "dependencies": {
     "axios": "^0.16.2",
     "chai": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/escwdev/oanda-node-api.git"
   }
 }
