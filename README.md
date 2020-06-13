@@ -148,12 +148,12 @@ orderObject = {
   takeProfitOnFill || stopLossOnFill: {  
     price: 'stringFloat'  
     timeInForce: 'string' DEFAULT: 'GTC' GTD GFD  
-    gdtTime: 'DateTime' used if on GTD for timeInForce 
+    gtdTime: 'DateTime' used if on GTD for timeInForce 
   }
   trailingStopLossOnFill: {  
     distance: 'stringFloat' like price but amount of PIPs vs static price point  
     timeInForce: 'string' DEFAULT: 'GTC' GTD GFD  
-    gdtTime: 'DateTime' used if on GTD for timeInForce  
+    gtdTime: 'DateTime' used if on GTD for timeInForce  
   }  
   distance: 'stringFloat' amount of PIPs for trailingStopLossOrders  
 }  
@@ -188,12 +188,12 @@ orderObject = {
   takeProfitOnFill || stopLossOnFill: {  
     price: 'stringFloat'  
     timeInForce: 'string' DEFAULT: 'GTC' GTD GFD  
-    gdtTime: 'DateTime' used if on GTD for timeInForce 
+    gtdTime: 'DateTime' used if on GTD for timeInForce 
   }
   trailingStopLossOnFill: {  
     distance: 'stringFloat' like price but amount of PIPs vs static price point  
     timeInForce: 'string' DEFAULT: 'GTC' GTD GFD  
-    gdtTime: 'DateTime' used if on GTD for timeInForce  
+    gtdTime: 'DateTime' used if on GTD for timeInForce  
   }  
   distance: 'stringFloat' amount of PIPs for trailingStopLossOrders  
 }  
