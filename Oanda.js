@@ -42,7 +42,10 @@ const Oanda = {
     if (Object.values(this.header.headers).includes('RFC3339')) {
       return '?time=' + time.toJSON().replace(/[:]/g, "%3A")
     } else {
-      return '?time=' + time
+      if(time!==undefined){
+        return '?time=' + time
+      }
+      return ''
     }
   }
 }
