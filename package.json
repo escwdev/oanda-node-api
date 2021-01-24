@@ -9,7 +9,7 @@
   "author": "Eric Abrahams",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "chai": "^4.1.2"
   },
   "repository": {
