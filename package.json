@@ -1,6 +1,6 @@
 {
   "name": "oanda-node-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A NodeJS Promise based API wrapper for Oanda trading platform",
   "main": "Oanda.js",
   "scripts": {
