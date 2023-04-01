@@ -278,11 +278,11 @@ options = {
 }
 ```   
 
-`api.getTransactionsByID(transactionID)`    
+`api.getTransactionByID(transactionID)`    
   > transactionID = integer
   >   
 
-`api.getTransactionByIDRange(options)`
+`api.getTransactionsByIDRange(options)`
 ```javascript 
 options = {
   to: integer,
@@ -291,6 +291,6 @@ options = {
 }
 ```  
 
-`api.getTransactionSinceID(transactionID)`    
+`api.getTransactionsSinceID(transactionID)`    
   > transactionID = integer
   >   
